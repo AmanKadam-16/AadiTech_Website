@@ -1,6 +1,6 @@
 import { useState } from "react";
 import '../assets/Company_Logo.png';
-import login_logo from './login_logo';
+// import login_logo from './login_logo';
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -18,7 +18,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import { LogoIcon } from "./Icons";
+// import { LogoIcon } from "./Icons";
 
 interface RouteProps {
   href: string;
