@@ -34,10 +34,10 @@ const routeList: RouteProps[] = [
     href: "#testimonials",
     label: "Testimonials",
   },
-  {
-    href: "#pricing",
-    label: "Pricing",
-  },
+  // {
+  //   href: "#pricing",
+  //   label: "Pricing",
+  // },
   {
     href: "#faq",
     label: "FAQ",
@@ -56,7 +56,7 @@ export const Navbar = () => {
               href="/"
               className="ml-2 font-bold text-xl flex items-center"
             >
-              <img src="/src/assets/Company_Logo.png" alt="Company Logo" className="h-9 w-14 mr-2" />
+              <img src="https://raw.githubusercontent.com/AmanKadam-16/AadiTech_Website/refs/heads/main/aadiTechnology/src/assets/Company_Logo.png" alt="Company Logo" className="h-9 w-14 mr-2" />
               Aadi Technology
             </a>          </NavigationMenuItem>
 
